@@ -18,6 +18,7 @@
     "watch": "tsc -w --outDir demo/built",
     "test": "jest"
   },
+  "prepare": "yarn built",
   "jest": {
     "verbose": true,
     "moduleFileExtensions": [
